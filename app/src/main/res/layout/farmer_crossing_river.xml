@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/relative_my"
+    android:background="@drawable/river"
+    android:padding="10dp">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+        <ImageView
+            android:id="@+id/farmer_l"
+            android:src="@drawable/farmer"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+             />
+        <ImageView
+            android:id="@+id/wolf_l"
+            android:src="@drawable/wolf"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="3dp"
+            />
+
+        <ImageView
+            android:id="@+id/sheep_l"
+            android:src="@drawable/sheep"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+
+            />
+
+        <ImageView
+            android:id="@+id/cabbage_l"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:src="@drawable/cabbage"
+
+            />
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_alignParentRight="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:orientation="vertical"
+        android:padding="6dp"
+        android:gravity="right"
+        >
+        <ImageView
+            android:id="@+id/farmer_r"
+            android:src="@drawable/farmer"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+        <ImageView
+            android:id="@+id/wolf_r"
+            android:src="@drawable/wolf"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            android:padding="3dp"
+            />
+
+        <ImageView
+            android:id="@+id/sheep_r"
+            android:src="@drawable/sheep"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+
+        <ImageView
+            android:id="@+id/cabbage_r"
+            android:src="@drawable/cabbage"
+            android:layout_width="88dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:visibility="invisible"
+            />
+
+    </LinearLayout>
+
+</RelativeLayout>
